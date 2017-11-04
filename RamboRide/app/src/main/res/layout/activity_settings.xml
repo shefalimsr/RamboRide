@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shefali.ramboride.Settings">
+
+    <Button
+        android:id="@+id/button17"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:text="Change Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="723dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:met_floatingLabel="normal"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact no.(1234567890)"
+        android:inputType="phone"
+        app:met_floatingLabel="normal"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="365dp"
+        app:met_floatingLabel="normal"
+
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="College"
+        app:met_floatingLabel="normal"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:text="Delete Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        tools:layout_editor_absoluteX="384dp"
+        tools:layout_editor_absoluteY="723dp" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button15"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#427df4"
+        fancy:fb_focusColor="#42b9f4"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Save"
+        fancy:fb_textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+</android.support.constraint.ConstraintLayout>

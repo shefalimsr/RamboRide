@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main2"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.shefali.ramboride.login">
+
+    <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Email"-->
+        <!--app:met_floatingLabel="normal" />-->
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="85dp"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/editText16"
+        android:layout_centerHorizontal="true"
+        app:met_floatingLabel="normal"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="179dp"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/remember"
+        android:layout_alignStart="@+id/editText13" />
+
+    <CheckBox
+        android:id="@+id/remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="259dp"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/login"
+        android:layout_alignStart="@+id/editText16" />
+
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/login"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="327dp"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/forgot"
+        android:layout_alignStart="@+id/remember"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#99ff33"
+        fancy:fb_focusColor="#009900"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Login"
+        fancy:fb_textColor="#FFFFFF"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/forgot"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="395dp"
+        android:layout_marginBottom="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/create"
+        android:layout_marginEnd="31dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FF3333"
+        fancy:fb_focusColor="#CC0000"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="20dp"
+        fancy:fb_text="Forgot Password?"
+        fancy:fb_textColor="#FFFFFF"
+        />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/create"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="395dp"
+        android:layout_toEndOf="@+id/remember"
+        android:layout_alignBottom="@+id/forgot"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#3399ff"
+        fancy:fb_focusColor="#004c99"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="20dp"
+        fancy:fb_text="Create Account"
+        fancy:fb_textColor="#FFFFFF"
+        />
+
+    </RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shefali.ramboride.faq">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:text="Sol. This is a sample answer. there will be mutilple frequently asked questions(FAQs) and answers in this section."
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="288dp"
+        android:layout_height="29dp"
+        android:text="Q. This is a sample question ?"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="288dp"
+        android:layout_height="29dp"
+        android:text="Q. This is a sample question ?"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:text="Sol. This is a sample answer. there will be mutilple frequently asked questions(FAQs) and answers in this section."
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us : support.ramboride@gmail.com"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="467dp" />
+</android.support.constraint.ConstraintLayout>

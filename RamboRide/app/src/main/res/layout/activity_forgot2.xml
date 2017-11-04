@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Change Password"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="New Password"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <EditText
+            android:id="@+id/pas"
+            android:layout_width="212dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="password"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="267dp" />
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Re-enter New Password"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="339dp"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/npas"
+            android:layout_width="212dp"
+            android:layout_height="33dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="password"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="372dp" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Change"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="440dp"
+            fancy:fb_defaultColor="#ff6666"
+            fancy:fb_focusColor="#ff3333"
+            fancy:fb_fontIconSize="25dp"
+            fancy:fb_iconPosition="right"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="Confirm Change"
+            fancy:fb_textColor="#ffffff"
+            />
+
+        </LinearLayout>
+    </ScrollView>
